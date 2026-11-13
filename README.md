@@ -24,6 +24,8 @@
 | [`analyze-heapsnapshot`](skills/analyze-heapsnapshot/SKILL.md) | V8 内存快照分析：按构造函数聚合、detached DOM 检测、支配树 retained size、两张快照 diff |
 | [`analyze-memory-trace`](skills/analyze-memory-trace/SKILL.md) | Chromium contentTracing 内存 dump 按进程拆解，判断泄露还是 GC 回收 |
 | [`analyze-perf-trace`](skills/analyze-perf-trace/SKILL.md) | Performance trace 分析：长任务、强制重排、布局抖动、querySelector 风暴 |
+| [`css-source-tracing`](skills/css-source-tracing/SKILL.md) | 样式溯源纪律：改源头不加覆盖层，零新增红线（禁 !important/裸 z-index/幽灵 token），配增量自检脚本 |
+| [`style-priority-analysis`](skills/style-priority-analysis/SKILL.md) | !important 三档分析：必须保留/可安全去掉/需人工确认，含 scoped 编译后真实特异性计算 |
 
 ### 规划与流程
 
@@ -32,6 +34,8 @@
 | [`automation-loop-init`](skills/automation-loop-init/SKILL.md) | 长任务自驱 Loop 脚手架：8 步问答生成 loop 文档 + 一句话启动指令，内置预算纪律与 Writer/Verifier 分离 |
 | [`doc-gardening`](skills/doc-gardening/SKILL.md) | 文档巡检与自动修复：断链、过时 API、权威文档互相矛盾、陈旧文档，八阶段流程 |
 | [`change-summary`](skills/change-summary/SKILL.md) | git 提交 → 三段式主题分组 changelog（新增/修复/发布），拒绝逐条搬运 commit message |
+| [`commit-splitting`](skills/commit-splitting/SKILL.md) | 多模块/Monorepo 提交拆分纪律：按边界分组、自动修复独立成 commit、staged-first 原则 |
+| [`error-code-schema`](skills/error-code-schema/SKILL.md) | 统一错误码注册表：跨端错误码的规范层+数据层，五阶段工作流（Scan→Parse→Severity→domain→registry） |
 
 ## 🚀 使用
 
